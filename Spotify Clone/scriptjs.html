@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 10 ;
+        let b = 15 ;
+        console.log(a+b);
+
+
+
+        const e = 5;
+        const f = 17;
+
+        function squre(a){
+            let squred=a*a;
+            return squred;
+        }
+
+        const ans = squre(7);
+        console.log(ans);
+
+        function greet(){
+            console.log("Hello Harsh");
+        }
+        greet();
+        const call = ()=> {
+            console.log("My name is Harsh");
+            console.log(4+(+"8")); 
+        }
+        call();
+
+        function GetMyHeart(callback){
+            setTimeout(()=>{
+                const heart = "❤"
+                console.log("here is my Heart"+heart);
+                callback(heart);
+            },10000)
+        }
+        GetMyHeart((heart)=>{
+            console.log("Here is my Heart",heart);
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
